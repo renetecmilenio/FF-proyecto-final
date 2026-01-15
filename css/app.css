@@ -1,0 +1,67 @@
+/*reglas generales*/
+
+/*Media Query*/
+
+/** Reescribir colores */
+
+/** Productos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair", sans-serif;
+}
+
+header h1 span {
+  color: var(--bs-blue) !important;
+}
+
+
+/* elemento padre hero image */
+.hero-image {
+  min-height: 25rem;
+  background-image: url("../img/principal.jpg");
+  background-repeat: no-repeat;
+  background-color: red;
+  background-size: cover;
+  background-position: 100% 90%;
+
+}
+
+.hero-image div {
+  min-height: inherit;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-color: #0000006b;
+
+  color: white;
+
+}
+
+.main_title {
+
+  text-shadow: 3px 0 4px black;
+}
+
+.bg-success {
+  background-color: rgb(49, 245, 49) !important;
+}
