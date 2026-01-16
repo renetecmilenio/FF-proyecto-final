@@ -65,3 +65,58 @@ header h1 span {
 .bg-success {
   background-color: rgb(49, 245, 49) !important;
 }
+
+.bg-secondary {
+  background-color: #3f3f3f !important;
+}
+
+.btn-zoom {
+  transition: all .3s ease-in-out;
+}
+
+.btn-zoom:hover {
+
+  transform: scale(1.1);
+
+}
+
+.btn-bounce {
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+
+  0% {
+    transform: translateY(3px);
+  }
+
+  50% {
+
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(3px);
+  }
+
+
+}
+
+.transformacion img {
+  transition: transform .3s;
+}
+
+.transformacion img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#articulo {
+  transition: transform .3s cubic-bezier(0.25, 0.1, 0.58, 1);
+
+}
+
+#articulo:hover {
+  transform: translate(0px, -5px);
+  cursor: pointer;
+}
